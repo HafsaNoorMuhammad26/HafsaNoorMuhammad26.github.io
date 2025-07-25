@@ -252,6 +252,33 @@
             text-decoration: none;
         }
 
+        /* Explore more projects button */
+        .explore-more {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .explore-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 24px;
+            background: var(--gradient);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(108, 99, 255, 0.3);
+        }
+
+        .explore-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(108, 99, 255, 0.4);
+        }
+
         /* Contact section */
         .contact-icons {
             display: flex;
@@ -486,6 +513,13 @@
                 </div>
             </div>
         </div>
+        
+        <!-- Explore More Projects Button -->
+        <div class="explore-more">
+            <a href="https://github.com/HafsaNoorMuhammad26?tab=repositories" target="_blank" class="explore-btn">
+                <i class="fas fa-arrow-right"></i> Explore More Projects on GitHub
+            </a>
+        </div>
     </section>
 
     <section id="contact">
@@ -500,9 +534,6 @@
             <a href="https://github.com/HafsaNoorMuhammad26" target="_blank" title="GitHub">
                 <i class="fab fa-github"></i>
             </a>
-            <!-- <a href="#" title="Twitter">
-                <i class="fab fa-twitter"></i>
-            </a> -->
         </div>
         <form action="https://formsubmit.co/hafsanoormuhammad26@gmail.com" method="POST">
             <input type="text" name="name" placeholder="Your Name" required>
